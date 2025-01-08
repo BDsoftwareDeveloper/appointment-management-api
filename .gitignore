@@ -1,0 +1,67 @@
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug/
+[Dd]ebug-windows/
+[Dd]ebug-linux/
+[Dd]ebug-osx/
+[Dd]ist/
+
+# Uncomment if you have tasks that create project's logs
+# projectname/*.log
+
+# .NET Core files
+bin/
+obj/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core temporary files
+wwwroot/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer files - more specific
+*.vsscc
+
+# User-specific files for JetBrains Rider
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Node.js modules
+node_modules/
+
+# npm package lock file
+package-lock.json
+
+# Azure Web App publish directory
+.publish/
+
+# Docker files
+docker-compose.override.yml
