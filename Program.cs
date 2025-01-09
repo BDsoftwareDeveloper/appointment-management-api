@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using appointment_management_api.Data;  // Make sure the namespace matches what's in AppDbContext.cs
+using AppointmentManagementApi.Data;  // Make sure the namespace matches what's in AppDbContext.cs
 
 var builder = WebApplication.CreateBuilder(args);
 

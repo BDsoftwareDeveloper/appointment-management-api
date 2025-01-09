@@ -7,6 +7,16 @@ using AppointmentManagementApi.Models;
 namespace AppointmentManagementApi.Controllers
 {
     [ApiController]
+    [Route("/")]
+    public class RootController : ControllerBase
+    {
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok("Welcome to Appointment Management API!");
+        }
+    }
+    [ApiController]
     [Route("api/[controller]")]
     [Authorize]
     public class AppointmentsController : ControllerBase

@@ -27,6 +27,8 @@ artifacts/
 # ASP.NET Core temporary files
 wwwroot/
 
+sql_data/
+data-protection-keys/
 # Windows Installer files
 *.cab
 *.msi
